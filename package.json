@@ -1,37 +1,26 @@
 {
-  "name": "sd-0x-mysql-all-for-one",
+  "name": "mysql-all-for-one",
   "version": "1.0.0",
-  "description": "Project for Block 8",
-  "main": "index.js",
+  "description": "Project mysql all for one",
+  "main": "jest.config.js",
   "scripts": {
-    "test": "jest --runInBand --verbose --forceExit",
-    "test:watch": "jest --watchAll"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betrybe/sd-0x-mysql-all-for-one.git"
+    "url": "git+https://github.com/eulipegois/mysql-all-for-one"
   },
-  "keywords": [
-    "javascript",
-    "tests",
-    "assert",
-    "jest"
-  ],
-  "author": "Jean Vasconcelos",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/betrybe/sd-0x-mysql-all-for-one/issues"
+    "url": "https://github.com/eulipegois/mysql-all-for-one/issues"
   },
-  "homepage": "https://github.com/betrybe/sd-0x-mysql-all-for-one#readme",
+  "homepage": "https://github.com/eulipegois/mysql-all-for-one#readme",
   "devDependencies": {
-    "acorn": ">=5.7.4",
-    "jest": "^24.9.0",
-    "minimist": ">=1.2.2",
-    "mysql-import": "^4.0.24"
+    "mysql-import": "^5.0.21"
   },
   "dependencies": {
-    "eslint-config-trybe-backend": "^1.0.4",
-    "mysql2": "^2.1.0",
-    "sequelize": "^6.2.0"
+    "mysql2": "^2.3.3"
   }
 }
